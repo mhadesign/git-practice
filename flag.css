@@ -1,0 +1,58 @@
+body{
+    margin: 0 auto;
+    width: 30%;
+}
+html{
+    font-size: 62.5%;
+}
+h1 {
+    text-align: center;
+    color: green;
+    text-transform: uppercase
+}
+
+h1 span {
+    color: red
+}
+
+.square_area {
+    width: 40rem;
+    height: 25rem;
+    background: green;
+    position: relative
+}
+.square_area::before{
+    content: "";
+    display: block;
+    clear: both;
+    background: rgb(70, 82, 7);
+    width: 20px;
+    height: 200%;
+    margin-bottom: 10%;
+}
+
+
+.circle_area {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
+
+.circle_area span {
+    color: #fcffff;
+    width: 32%;
+    height: 10%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0
+}
